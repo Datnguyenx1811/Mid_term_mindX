@@ -1,0 +1,153 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1c1c1c;
+  color: rgb(255, 255, 255);
+  border: 1px solid #3a3a3a;
+  box-sizing: border-box;
+}
+
+.header h1 {
+  font-size: 45px;
+  margin: 0;
+  font-weight: bold;
+  flex: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.navbar-item {
+  margin: 0 15px;
+  color: #b0b0b0;
+  text-decoration: none;
+  font-weight: normal;
+  
+}
+
+.navbar-item:hover {
+  color: white;
+}
+
+.header input {
+  padding: 8px 15px;
+  border-radius: 25px;
+  border: 1px solid #3a3a3a;
+  background-color: #444;
+  color: white;
+  width: 200px;
+  outline: none;
+}
+
+.header input::placeholder {
+  color: #b0b0b0;
+}
+
+.root {
+  background-color: #3a3a3a;
+  color: white;
+  padding: 20px;
+}
+
+.explore {
+  margin-top: 20px;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.movie-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.a{
+width: 118px;
+height: 36px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 112.5%;
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.b{
+ 
+width: 387px;
+height: 25px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 112.5%;
+
+text-align: center;
+
+color: #868686;
+
+
+
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+.c{/* New Release */
+
+  width: 232px;
+  height: 32px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 32px;
+  /* identical to box height, or 89% */
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
